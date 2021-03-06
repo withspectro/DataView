@@ -1,6 +1,8 @@
 from PyQt5 import QtWidgets, uic
 from PyQt5.QtGui import QIcon
 
+from Model.TimeAxis.TimeAxisItem import TimeAxisItem
+
 
 class MainView(QtWidgets.QWidget):
     def __init__(self):
@@ -12,9 +14,8 @@ class MainView(QtWidgets.QWidget):
         self.ui.setWindowTitle("HEROS DATAVIEW")
         # self.ui.setWindowIcon(QIcon('icon.ico'))
 
+        self.declare_graph()
 
     def declare_graph(self):
-        self.pw1 = self.ui.graph_Widget_1
-        self.pw1.setTitle("Conc data")
-        self.pw1.setLabel(axis ='left', text= 'NH3(ppb)')
+        self.pw1 = self.ui.graphWidget
         self.pw1.setAxisItems({'bottom': TimeAxisItem(orientation='bottom')})
