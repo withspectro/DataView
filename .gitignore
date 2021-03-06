@@ -1,0 +1,10 @@
+*.pyi
+*.pyc
+*.log
+*.pot
+*.pxd
+/__pycache__/
+/.idea/
+/venv/
+/dist/
+/build/
