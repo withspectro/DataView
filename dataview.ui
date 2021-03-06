@@ -200,6 +200,20 @@
                  </property>
                 </widget>
                </item>
+               <item row="2" column="1">
+                <widget class="QPushButton" name="pushButton_3">
+                 <property name="text">
+                  <string>TODAY</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="pushButton_4">
+                 <property name="text">
+                  <string>END -1D</string>
+                 </property>
+                </widget>
+               </item>
               </layout>
              </item>
              <item>
@@ -251,7 +265,7 @@ color: rgb(255, 255, 255);</string>
                 <x>0</x>
                 <y>0</y>
                 <width>176</width>
-                <height>189</height>
+                <height>147</height>
                </rect>
               </property>
               <layout class="QGridLayout" name="gridLayout_3">
@@ -295,6 +309,28 @@ color: rgb(255, 255, 255);</string>
                </item>
               </layout>
              </widget>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::StrongFocus</enum>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(58, 108, 198);
+color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="text">
+              <string>CLEAR</string>
+             </property>
             </widget>
            </item>
           </layout>
